@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>art board</title>
+    <link rel="stylesheet" type="text/css" href="drawcss.css">
+</head>
+<body>
+    <div class="btns">
+        <input type="button" value="free hand" id="free_hand" class="ctrl_btn">
+        <input type="button" value="line" id="line" class="ctrl_btn">
+        <input type="button" value="circle" id="circle" class="ctrl_btn">
+        <input type="button" value="rectangle" id="rectangle" class="ctrl_btn">
+        <input type="button" value="erase" id="erase" class="ctrl_btn">
+        <label>Fill style </label>
+        <input type="color" id="fill_color" class="colors">
+        <label>Stroke style </label>
+        <input type="color" id="fill_stroke" class="colors">
+    </div>
+    <canvas width="800px" height="500px" id="my_canvas"></canvas>
+    <script src="draw.js"></script>
+</body>
+
+</html>

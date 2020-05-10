@@ -1,0 +1,26 @@
+body{
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: black;
+}
+canvas {
+    border: 5px solid tomato;
+    background-color: white;
+    margin-top: 10px;
+}
+.ctrl_btn {
+    background-color: white;
+    color: tomato;
+    width: 100px;
+    height: 35px;
+}
+.ctrl_btn:hover{
+    background-color: chocolate;
+    color: cornsilk;
+}
+.colors {
+    background-color: white;
+}
+label {
+    color: tomato;
+}
